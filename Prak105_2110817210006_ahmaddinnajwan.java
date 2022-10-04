@@ -16,22 +16,22 @@ public class Prak105_2110817210006_ahmaddinnajwan {
     public static void main(String[] args) {
         
  
-        double jari, tinggi, hasil;
+        double jari, tinggi, hasilAkhir;
         
-        Scanner keyboard = new Scanner(System.in).useLocale(Locale.US);
+        Scanner input = new Scanner(System.in).useLocale(Locale.US);
         DecimalFormat df = new DecimalFormat("#.###");
         
         System.out.print("Masukkan jari-jari : ");
-        jari = keyboard.nextDouble();
+        jari = input.nextDouble();
         
         System.out.print("Masukkan tinggi : ");
-        tinggi = keyboard.nextDouble();
+        tinggi = input.nextDouble();
         
-        hasil = 3.14 * jari * jari * tinggi;
+        hasilAkhir = 3.14 * jari * jari * tinggi;
         
         System.out.println("Volume tabung dengan jari-jari " + jari + " cm ");
         System.out.println("dan tinggi " + tinggi + " cm ");
-        System.out.println("adalah " + df.format(hasil) + " m3");
+        System.out.println("adalah " + df.format(hasilAkhir) + " m3");
     
     }
 }
