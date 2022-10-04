@@ -15,19 +15,19 @@ public class Prak104_2110817210006_ahmaddinnajwan {
         Scanner input= new Scanner(System.in);
         
         System.out.print("Kartu Andi:");
-        int andi1 = input.nextInt();
-        int andi2 = input.nextInt();
-        int andi3 = input.nextInt();
+        int A1 = input.nextInt();
+        int A2 = input.nextInt();
+        int A3 = input.nextInt();
         
         
         System.out.print("Kartu Budi: ");
-        int budi1 = input.nextInt();
-        int budi2 = input.nextInt();
-        int budi3 = input.nextInt();
+        int B1 = input.nextInt();
+        int B2 = input.nextInt();
+        int B3 = input.nextInt();
         
         
-        int andi = andi1+andi2+andi3;
-        int budi = budi1+budi2+budi3;
+        int andi = A1+A2+A3;
+        int budi = B1+B2+B3;
         
         if(andi>budi){
             System.out.println("Andi");
